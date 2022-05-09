@@ -1,0 +1,79 @@
+/* RESET */
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+/* COMMON */
+
+.flex-container{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ /* HEADER */
+ header{
+     width: 100%;
+     height: 60px;
+     background-color: black;
+ }
+
+ .header-icon{
+    justify-content: flex-end;
+     padding: 3px;
+ }
+
+ .header-icon span{
+     background-color: gray;
+     color: white;
+     padding: 5px;
+     border-radius: 5px;
+     margin: 0 3px
+ }
+
+
+ /* MAIN */
+
+ main{
+    width: 100%;
+    height: calc( 100vh - 160px );
+    background-color: black;
+    overflow-y: auto;
+ }
+
+ .card-container{
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+
+
+.card{
+     margin: 8px;
+     position: relative;     
+}
+
+.card span{
+    background-color: #23252699;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    color: white;
+    padding: 5px;
+}
+
+
+ /* FOOTER */
+
+
+ footer{
+     width: 100%;
+     height: 100px;
+     background-color: bisque;
+     justify-content: space-between;
+     align-items: center;
+ }
+
